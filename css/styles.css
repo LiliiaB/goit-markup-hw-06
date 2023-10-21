@@ -57,9 +57,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #404bbf;
-  margin-right: 152px;
-
-
+  margin-right: 154px;
+  
    }
 
    .nav-menu-span {
@@ -443,7 +442,8 @@ row-gap: 48px;
 .footer {
     background-color: #2E2F42;
     color: #F4F4FD;
-    padding: 100px 0;
+    padding-top: 98px;
+    padding-bottom:104px;
   
 }
 .footer .container {
@@ -455,12 +455,24 @@ row-gap: 48px;
  }
 
  .logo-footer {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
    /* margin-right: 100px; */
 }
 
 .bottom-logo {
-    display: inline-block;
-    margin-bottom: 16px; 
+    font-family:'Raleway', sans-serif;  
+    text-decoration: none;  
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #404bbf;
+    margin-bottom: 17px;
+
 } 
 
 .bottom-logo-span {
@@ -472,6 +484,7 @@ row-gap: 48px;
     font-weight: 400;
     line-height: 1.5;
     max-width: 264px;
+    margin-bottom:72px;
 }
 .social-media {
    /* margin-right: 100px; */
@@ -484,10 +497,14 @@ row-gap: 48px;
     letter-spacing: 0.02em;
     color: var(--WHITE, #ffffff);
     margin-bottom: 16px;
+    text-align: center;
+    
 }
 .social-media-list {
   display:flex;
   gap: 16px;
+  margin-top:16px;
+  margin-bottom: 72px;
   } 
 
   .social-media-item {
@@ -520,7 +537,8 @@ row-gap: 48px;
 .subscribe-container {
     display:flex;
     flex-direction: column;
-    align-items: baseline;
+    align-items: center;
+    justify-content: center;
   }
 
 .label-subscribe {
@@ -530,12 +548,16 @@ font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--WHITE, #ffffff);
    margin-bottom: 16px;
+   
+    
   }
 
 .subscribe-subcontainer {
 display: flex;
 flex-direction: column;
 gap: 24px;
+align-items: center;
+justify-content:center;
 
 }
 
@@ -569,7 +591,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .subscribe-btn {
     border-radius: 4px;
     background-color: var(--IRIS, #4D5AE5);
-    min-width: 165px;
+    width: 165px;
     height: 40px;
     padding: 8px 24px;
     color: var(--WHITE, #FFF);
@@ -585,6 +607,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
 border: none;
+
 
 }
 
