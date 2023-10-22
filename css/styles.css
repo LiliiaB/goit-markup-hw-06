@@ -149,28 +149,31 @@ img {
 
 .mob-menu {
     position:fixed;
-     top: 0;
+    top: 0;
     left: 0;
     z-index: 1;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    width: 100%;
+    width: 320px;
     padding: 24px 24px 40px 16px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     overflow: auto;
-    background: #FFF;
-    min-height: 584px;
+    background: var(--DAIRY, #FCFCFC);;
+    min-height: 640px;
+    border-radius: 4px;
 }
 
 .mob-menu-close-btn {
   border-radius:50%;
 border: 1px solid rgb(209, 206, 206);
 background-color:white;
-display:block;
-margin-left:auto;
+position: absolute;
+top: 24px;
+right: 24px;
+cursor:pointer;
 }
 
 .mob-modal-btn-icon {
@@ -178,7 +181,7 @@ fill:#2E2F42;
 }
 
 .mob-menu-list {
-
+padding-top: 48px;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
@@ -209,7 +212,7 @@ letter-spacing: 0.02em;
 
      .mob-social-media-list {
         display: flex;
-        justify-content: center;
+        justify-content:space-between;
         gap: 24px;
      }
 
@@ -226,6 +229,7 @@ letter-spacing: 0.02em;
     align-items: center;
     justify-content: center;
   }
+  
 
     /*-- section 1 --*/
 
@@ -731,7 +735,7 @@ pointer-events: none;
 
 
 .modal {
-    width: 408px;
+    width: 288px;
     min-height: 584px;
     background-color: #FCFCFC;
     border-radius: 4px;
@@ -846,10 +850,9 @@ margin-bottom: 24px;
 
   }
 
-
 .send-btn {
-    display: block;
-    border-radius: 4px;
+display: block;
+border-radius: 4px;
 background: var(--IRIS, #4D5AE5);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 padding: 16px 32px;
