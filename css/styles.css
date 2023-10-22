@@ -128,7 +128,7 @@ img {
     justify-content: space-between;
     overflow: auto;
     background: var(--DAIRY, #FCFCFC);;
-    min-height: 640px;
+    height: 100vh;
     border-radius: 4px;
 }
 
@@ -162,7 +162,9 @@ letter-spacing: 0.02em;
 .mob-menu-li:not(:last-child) {
        margin-bottom: 40px;
     }
-
+    .mob-menu-li:last-child {
+        margin-bottom: 168px;
+     }
     .mob-site-contacts-item {
         text-decoration:none;
         color: var(--SLATE, #434455);
@@ -1082,7 +1084,9 @@ align-items: flex-start;
 .modal  {
     width:408px;
     
-         }   
+         }  
+        .mob-menu {
+            display:none;
         } 
 /*-- desktop  --*/
 
@@ -1166,7 +1170,6 @@ flex-wrap:nowrap;
 
    .footer .container {
  gap: 72px;
-   
- }
-
-        } 
+}
+}
+}
